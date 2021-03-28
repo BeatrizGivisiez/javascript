@@ -1,9 +1,11 @@
 # JavaScrit na prática!
 
-## Funções
+- [1 - Funções](#funcoes)
+
+## <a name="funcoes"></a> 1 - Funções
 É um conjuto de instruções que executa uma tarefa/atividade.
 
-### Declaração
+### Sua declaração
 A *declaração/definição* da função consiste no uso da palavra reservada/chave `function()`.
 
 * Nome da função;
