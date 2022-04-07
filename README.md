@@ -64,6 +64,7 @@ myMap.delete("apple");
 // true
 myMap.get("apple");
 // undefined
+```
 
 ### Qual a diferença entre Map vs Objeto, já que ambos contém chave e valor?
 - Maps podem ter chaves de qualquer tipo;
