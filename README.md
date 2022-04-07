@@ -1,6 +1,8 @@
 # JavaScrit na prática!
 
 - [1 - Funções](#funcoes)
+- [2 - Map](#map)
+- [3 - Set](#set)
 
 ## <a name="funcoes"></a> 1 - Funções
 É um conjuto de instruções que executa uma tarefa/atividade.
@@ -25,9 +27,7 @@ function nomeDaFuncao(argumento){
 }
 ```
 
-
-
-# Coleções Chaveadas (Map e Set)
+## <a name="map"></a> 2 - Map - Coleções Chaveadas
 ## MAP:
 ### Estrutura: 
 const myMap = new Map()
@@ -54,6 +54,7 @@ values: values()
 const myMap = new Map(chave, valor)
 1ºChave: apple , 2ºValor: fruit
 
+```javascript
 set = adicionar
 myMap.set('apple', 'fruit');
 // Map(1) {"apple" => "fruit"}
@@ -72,7 +73,7 @@ myMap.get("apple");
 - Os valores tem o mesmo tipo.
 
 ____
-## SET:
+## <a name="set"></a> 3 - Set - Coleções Chaveadas
 ### Estrutura: 
 const myArray = [1, 1, 2, 2, 3, 4, 5, 6, 7, 8, 2, 1]
 const mySet = new Set(myArray)
@@ -83,18 +84,16 @@ Caracteristicas:
 Métodos:
 - Adicionar, consultar(ler) e deletar.
 
+```javascript
 const mySet = new Set();
-
 mySet.add(1);
 mySet.add(5);
-
 mySet.has(1);
 // true
-
 mySet.has(3);
 // false
-
 mySet.delete(5);
+```
 
 Qual a diferença entre Set vs Array, já que ambos contém chave e valor?
 - Set possui valores únicos;
