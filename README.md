@@ -24,3 +24,79 @@ function nomeDaFuncao(argumento){
     return argumento * argumento;
 }
 ```
+
+
+
+# Coleções Chaveadas (Map e Set)
+## MAP:
+### Estrutura: 
+const myMap = new Map()
+
+### Caracteristicas: 
+- Uma coleção de arrays no formato [chave, valor];
+- Pode iterado por um loop for...of
+
+### Argumentos:
+clear: clear()
+constructor: Map()
+delete: delete()
+entries: entries()
+forEach: forEach()
+get: funcao ()
+has: has()
+keys: keys()
+set: ()
+values: values()
+
+### Métodos:
+- Adicionar, consultar(ler) e deletar.
+
+const myMap = new Map(chave, valor)
+1ºChave: apple , 2ºValor: fruit
+
+set = adicionar
+myMap.set('apple', 'fruit');
+// Map(1) {"apple" => "fruit"}
+myMap.get("apple");
+// "fruit"
+myMap.delete("apple");
+// true
+myMap.get("apple");
+// undefined
+
+### Qual a diferença entre Map vs Objeto, já que ambos contém chave e valor?
+- Maps podem ter chaves de qualquer tipo;
+- Maps possuem a propriedade length;
+- Maps são mais fáceis de iterar;
+- Maps utilizamos quando o valor das chaves é desconhecido;
+- Os valores tem o mesmo tipo.
+
+____
+## SET:
+### Estrutura: 
+const myArray = [1, 1, 2, 2, 3, 4, 5, 6, 7, 8, 2, 1]
+const mySet = new Set(myArray)
+
+Caracteristicas:
+- Sets são estruturas que armazenam apenas "valores únicos".
+
+Métodos:
+- Adicionar, consultar(ler) e deletar.
+
+const mySet = new Set();
+
+mySet.add(1);
+mySet.add(5);
+
+mySet.has(1);
+// true
+
+mySet.has(3);
+// false
+
+mySet.delete(5);
+
+Qual a diferença entre Set vs Array, já que ambos contém chave e valor?
+- Set possui valores únicos;
+- Em vez da propriedade length, consulta-se o número de registros pela propriedade size.
+- Não possui os métodos map, filter, reduce etc.
