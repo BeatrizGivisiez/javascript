@@ -27,16 +27,18 @@ function nomeDaFuncao(argumento){
 }
 ```
 
-## <a name="map"></a> 2 - Map - Coleções Chaveadas
-## MAP:
+## <a name="map"></a> 2 - Map (Coleções Chaveadas)
 ### Estrutura: 
+```javascript
 const myMap = new Map()
+```
 
 ### Caracteristicas: 
 - Uma coleção de arrays no formato [chave, valor];
 - Pode iterado por um loop for...of
 
 ### Argumentos:
+```javascript
 clear: clear()
 constructor: Map()
 delete: delete()
@@ -47,6 +49,7 @@ has: has()
 keys: keys()
 set: ()
 values: values()
+```
 
 ### Métodos:
 - Adicionar, consultar(ler) e deletar.
@@ -74,10 +77,12 @@ myMap.get("apple");
 - Os valores tem o mesmo tipo.
 
 ____
-## <a name="set"></a> 3 - Set - Coleções Chaveadas
+## <a name="set"></a> 3 - Set (Coleções Chaveadas)
 ### Estrutura: 
+```javascript
 const myArray = [1, 1, 2, 2, 3, 4, 5, 6, 7, 8, 2, 1]
 const mySet = new Set(myArray)
+```
 
 Caracteristicas:
 - Sets são estruturas que armazenam apenas "valores únicos".
